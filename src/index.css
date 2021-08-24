@@ -1,0 +1,229 @@
+*{
+  margin:0;
+  padding:0;
+}
+.flex-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:rgb(255,250,250);
+  
+}
+header{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background-image: linear-gradient(to right, black, purple);
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+  
+}
+.left{
+  width: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+}
+h1{
+  color: rgb(26, 25, 25);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right{
+  width: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  justify-content: center;
+  color:white;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  
+}
+.filter-container{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid rgb(224, 219, 219);
+}
+.filter-left{
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.filter-right{
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.main-pro{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  justify-content: center;
+  background-image: linear-gradient(to right,black, purple);
+  border-bottom: 0.1px solid rgb(223, 210, 210);
+}
+.main-sec{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+.mid-sec{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.mid-row{
+  display: flex;
+  padding-left: 3rem;
+
+}
+.mid-sec>a{
+  text-decoration: none;
+  font-size: 8px;
+  font-family:fantasy;
+  
+}
+button{
+  background-color:rgb(255, 254, 254);
+  margin-left: 7rem;
+  border: 1px solid rgb(189, 181, 181);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+button:hover{
+  background-color:rgb(138, 48, 138);
+  cursor: pointer;
+}
+.big{
+  margin-top: 1rem;
+  color: white;
+  background-image: linear-gradient(to right, black,purple);
+}
+.cart-detail{
+  width: 100%;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.details>img{
+  border: 1px solid rgb(206, 196, 196);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.mid{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.section{
+  display: flex;
+  margin-left: 1rem;
+  
+}
+
+.cart-detail>div>button:hover{
+  
+  background-color: rgb(185, 179, 179);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  color: white;
+  margin-top: 1rem;
+}
+.section-end{
+  display: flex;
+  width: 50rem;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  background-color: purple;
+}
+section{
+  
+  display: flex;
+  height: 19.1rem;
+  width: 100rem;
+  flex-direction: column;
+  background-color: purple;
+  justify-content: center;
+}
+
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-container{
+  display: flex;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  line-height: 2rem;
+   margin-top: 4rem;
+   text-decoration: none;
+}
+ul{
+  text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+
+input{
+  width: 15rem;
+  padding: 0.5rem;
+  line-height: 1rem;
+  margin-left: 2rem;
+}
+
+.add-cart{
+  background-color: black;
+  border:10px solid white;
+  color: white;
+}
+.cart{
+  text-align: center;
+ margin-top: 2rem;
+}
+.cart-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  line-height: 4rem;
+}
+.button-primary{
+  background-color:rgb(255, 254, 254);
+  margin-left: 7rem;
+  border: 1px solid rgb(189, 181, 181);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+button-primary:hover{
+  background-color:rgb(138, 48, 138);
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+}
